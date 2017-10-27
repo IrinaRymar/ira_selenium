@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/java-example-github.iml" filepath="$PROJECT_DIR$/.idea/modules/java-example-github.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/java-example-github_main.iml" filepath="$PROJECT_DIR$/.idea/modules/java-example-github_main.iml" group="java-example-github" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/java-example-github_test.iml" filepath="$PROJECT_DIR$/.idea/modules/java-example-github_test.iml" group="java-example-github" />
+    </modules>
+  </component>
+</project>
