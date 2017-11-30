@@ -45,13 +45,13 @@ public class Task_14_2 {
     }
 
 
-    @Test
-    public void myTask_14() {
-        driver.get("http://localhost:10000/litecart/admin/?app=countries&doc=countries");
-        driver.findElement(By.name("username")).sendKeys("admin");
-        driver.findElement(By.name("password")).sendKeys("admin");
-        driver.findElement(By.name("login")).click();
 
+        @Test
+        public void myTask_14() {
+            driver.get("http://localhost:10000/litecart/admin/?app=countries&doc=countries");
+            driver.findElement(By.name("username")).sendKeys("admin");
+            driver.findElement(By.name("password")).sendKeys("admin");
+            driver.findElement(By.name("login")).click();
 
         driver.findElement(By.cssSelector("tr.row a[title=Edit]")).click();
         List<WebElement> link1 = driver.findElements(By.xpath("//form//a[@target='_blank']"));
